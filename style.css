@@ -6,8 +6,13 @@ body {
 
 main {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div  {
-    padding: 3px;
+padding: 3px;
+flex: 0 32%;
+height: 350px;
+margin-bottom: 2%;
 }
