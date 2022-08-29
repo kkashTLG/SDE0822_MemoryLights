@@ -1,0 +1,79 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    max-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div  {
+padding: 3px;
+margin: 3px;
+}
+
+
+
+@media (min-width: 576px) { 
+    section {
+        max-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    div  {
+    border-color: 1px solid blue;
+    padding: 3px;
+    margin: 3px;
+    }
+}
+
+@media (min-width: 768px) { 
+    section {
+        max-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    div  {
+        border-color: 2px solid teal;
+    padding: 3px;
+    margin: 3px;
+    }
+}
+
+@media (min-width: 992px) { 
+    section {
+        max-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    div  {
+        border-color: 3px solid red;
+    padding: 3px;
+    margin: 3px;
+    }
+ }
+
+ @media (min-width: 2000px) { 
+    section {
+        max-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    div  {
+        border-color: 4px solid pink;
+    padding: 3px;
+    margin: 3px;
+    }
+ }
